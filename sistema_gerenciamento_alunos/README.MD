@@ -1,8 +1,9 @@
 🏫 Sistema de Gerenciamento de Notas de Alunos
 Sistema desenvolvido em Python para cadastrar alunos e gerenciar suas notas escolares.
-Funcionalidades
 
-Cadastrar aluno com nome e 3 notas
+📋Funcionalidades
+
+🎯Cadastrar aluno com nome e 3 notas
 Validação de notas entre 0 e 10
 Cálculo automático da média
 Classificação do aluno: Aprovado, Recuperação ou Reprovado
@@ -18,7 +19,7 @@ Executar no terminal:
 
 bashpython sistema_notas.py
 
-Conceitos utilizados
+🛠️Conceitos utilizados
 
 Variáveis e tipos de dados
 Estruturas condicionais if, elif, else
