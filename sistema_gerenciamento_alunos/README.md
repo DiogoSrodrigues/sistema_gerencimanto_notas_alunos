@@ -1,31 +1,40 @@
-🏫 Sistema de Gerenciamento de Notas de Alunos
+# 🏫 Sistema de Gerenciamento de Notas de Alunos
+
 Sistema desenvolvido em Python para cadastrar alunos e gerenciar suas notas escolares.
 
-📋Funcionalidades
+## 📋 Funcionalidades
 
-🎯Cadastrar aluno com nome e 3 notas
-Validação de notas entre 0 e 10
-Cálculo automático da média
-Classificação do aluno: Aprovado, Recuperação ou Reprovado
-Visualização do boletim completo da turma
+- Cadastrar aluno com nome e 3 notas
+- Validação de notas entre 0 e 10
+- Cálculo automático da média
+- Classificação do aluno: Aprovado, Recuperação ou Reprovado
+- Visualização do boletim completo da turma
 
-Critérios de Classificação
-MédiaSituação>= 7.0Aprovado ✅>= 5.0 e < 7.0Recuperação ⚠️< 5.0Reprovado ❌
-▶️ Como executar
+## 🎯 Critérios de Classificação
 
-Ter o Python instalado no computador
-Baixar o arquivo sistema_notas.py
-Executar no terminal:
+| Média | Situação |
+|-------|----------|
+| >= 7.0 | Aprovado ✅ |
+| >= 5.0 e < 7.0 | Recuperação ⚠️ |
+| < 5.0 | Reprovado ❌ |
 
-bashpython sistema_notas.py
+## ▶️ Como executar
 
-🛠️Conceitos utilizados
+1. Ter o Python instalado no computador
+2. Baixar o arquivo `sistema_notas.py`
+3. Executar no terminal:
+```bash
+python sistema_notas.py
+```
 
-Variáveis e tipos de dados
-Estruturas condicionais if, elif, else
-Laços de repetição for e while
-Listas e método append()
-Biblioteca time
+## 🛠️ Conceitos utilizados
 
-Autor
+- Variáveis e tipos de dados
+- Estruturas condicionais `if`, `elif`, `else`
+- Laços de repetição `for` e `while`
+- Listas e método `append()`
+- Biblioteca `time`
+
+## 👨‍💻 Autor
+
 Diogo dos Santos Rodrigues
